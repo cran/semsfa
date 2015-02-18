@@ -1,0 +1,13 @@
+#exportPattern("^[[:alpha:]]+")
+exportPattern("^[^\\.]")
+
+#importFrom(labstatR, skew)
+#importFrom(doParallel, do)
+#importFrom(doParallel, foreach)
+#importFrom(doParallel, icount)
+import(mgcv,np,moments)
+import(doParallel)
+import(foreach)
+import(iterators)
+S3method(summary, semsfa)
+S3method(plot, semsfa)
