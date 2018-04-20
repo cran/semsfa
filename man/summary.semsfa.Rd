@@ -21,7 +21,7 @@ Please note that if bootstrap is carried out the \eqn{t}-statistic is not reliab
 We suggest to compare the BIC of the semiparametric estimated model with the base model. 
 }
 \value{
-\code{summary.semsfa} returns a list of class \code{summary.semsfa} that is identical to an object returned by \code{semsfa()} with few modifications if bootstrap is carried out:
+\code{summary.semsfa} returns the summary of an object returned by \code{semsfa()} with few modifications if bootstrap is carried out:
 \item{b.t}{\eqn{t}-statistic given the bootstrapped standard errors for \eqn{\lambda} and \eqn{\sigma} (\code{b.se})}
 \item{b.pv}{\eqn{p}-values of the \eqn{t}-statistic}
 }

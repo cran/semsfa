@@ -21,15 +21,15 @@ further arguments to the summary method are currently ignored
 \details{
 The estimation of the individual efficiency score for a particular point \eqn{(x,y)} on a production frontier might be obtained from the Jondrow et al. (1982) procedure. Defining:
 \deqn{
- \sigma^2=\sigma_u^2+\sigma_v^2, u_{*}(x) = -\sigma_u^2 \varepsilon/\sigma^2, \sigma_{*}^2=\sigma_u^2 \sigma_v^2/\sigma^2
+ \sigma^2=\sigma_u^2+\sigma_v^2, u_{*}(x) = -\sigma_u^2 \epsilon/\sigma^2, \sigma_{*}^2=\sigma_u^2 \sigma_v^2/\sigma^2
 }
 it can be shown that:
 \deqn{
-u|\varepsilon \sim N^+(\mu_{*}(x),\sigma_{*}^{2}(x)).
+u|\epsilon ~ N^+(\mu_{*}(x),\sigma_{*}^{2}(x)).
 }
 We can use this distribution to obtain point previsions of \eqn{u} trought the mean of the conditional distribution:
 \deqn{
-E(u|\varepsilon)=\mu_{*} + \sigma_{*} f(-\mu_{*}/\sigma_{*})/(1-F(\mu_{*}/\sigma_{*}))
+E(u|\epsilon)=\mu_{*} + \sigma_{*} f(-\mu_{*}/\sigma_{*})/(1-F(\mu_{*}/\sigma_{*}))
 }
 where \eqn{f} and \eqn{F} represent the standard Normal density and cumulative distribution function, respectively; alternative formulas for cost frontier models are easy to get (please see Kumbhakar and Lovell, 2000).
 
