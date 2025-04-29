@@ -1,3 +1,4 @@
+#' @export
 plot.semsfa<-function(x,g.type="reg",mod=NULL,...){
   dati<-data.frame(x$data)
   if(g.type=="eff" | g.type=="reg"){

@@ -1,3 +1,4 @@
+#' @export
 summary.semsfa<-function (object, ...) 
 {
   cat("\nSemiparametric Stochastic Frontier Model\n\n")
